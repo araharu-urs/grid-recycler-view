@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Grid-Test</string>
+    <string name="getCash">Disposición Efectivo</string>
+    <string name="icon_image">icon image</string>
+</resources>

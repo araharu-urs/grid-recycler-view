@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ("Teléfonos grandes") -->
+
+    <!-- Tamaños de Texto Base -->
+    <dimen name="textSize_body">12sp</dimen>
+    <dimen name="textSize_title">14sp</dimen>
+    <dimen name="textSize_headline">24sp</dimen>
+
+    <!-- Límites para Auto-Ajuste -->
+    <dimen name="autoSize_min_text_size">12sp</dimen>
+    <dimen name="autoSize_max_text_size">36sp</dimen>
+</resources>

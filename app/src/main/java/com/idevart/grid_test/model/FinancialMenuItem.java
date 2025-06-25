@@ -1,0 +1,30 @@
+package com.idevart.grid_test.model;
+
+public enum FinancialMenuItem {
+    btnSale,
+    btnRefund,
+    btnRefund2,
+    btnVoids,
+    btnVoids2,
+    btnPreTip,
+    btnPreTip2,
+    btnPosTip,
+    btnAdjustSale,
+    btnCheckIn,
+    btnReauthCheckIn,
+    btnCancelCheckIn,
+    btnCheckOut,
+    btnRentalIn,
+    btnReauthRentalIn,
+    btnCancelRentalIn,
+    btnCarReturn,
+    btnNoShow,
+    btnSaleOffline,
+    btnSaleOffline2,
+    btnComunication,
+    btnComunication2,
+    btnCashback,
+    btnCashback2,
+    btnDeposit,
+    btnBalance
+}

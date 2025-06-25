@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.GridTest" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.GridTest" parent="Base.Theme.GridTest" />
+
+
+    <!-- Estilo Base para todos nuestros textos con autoajuste -->
+    <style name="Widget.App.TextView.Adaptive" parent="Widget.MaterialComponents.TextView">
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">@dimen/autoSize_min_text_size</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/autoSize_max_text_size</item>
+        <item name="android:autoSizeStepGranularity">2sp</item>
+    </style>
+
+    <!-- Estilo para texto de cuerpo (párrafos, descripciones) -->
+    <style name="Widget.App.TextView.Body" parent="Widget.App.TextView.Adaptive">
+        <item name="android:textSize">@dimen/textSize_body</item>
+    </style>
+
+    <!-- Estilo para títulos de sección -->
+    <style name="Widget.App.TextView.Title" parent="Widget.App.TextView.Adaptive">
+        <item name="android:textSize">@dimen/textSize_title</item>
+        <!-- Podrías agregar otros atributos como android:textStyle="bold" -->
+    </style>
+
+    <!-- Estilo para encabezados principales -->
+    <style name="Widget.App.TextView.Headline" parent="Widget.App.TextView.Adaptive">
+        <item name="android:textSize">@dimen/textSize_headline</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.App.TextView.Adaptive" parent="Widget.MaterialComponents.TextView">
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">@dimen/autoSize_min_text_size</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/autoSize_max_text_size</item>
+        <item name="android:autoSizeStepGranularity">2sp</item>
+    </style>
+</resources>
